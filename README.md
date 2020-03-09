@@ -14,6 +14,11 @@ Dependencia Maven Spring Security:
 
 El controlador principal expone 4 endpoints en los cuales se juega con dos hashes de encriptación que nos provee Spring Security “BCrypt” y “pbkdf2”.
 
+Ruta del controlador donde se desarrollaron los ejemplos:
+```
+src/main/java/Controller/EncriptacionController.java
+```
+
 *Las peticiones HTTP que haceptan los endpoints son por **POST***
 
 *Nota: La configuracion que se realizo de Spring Security es basica para poder desarrollar los ejercicios de encriptacion y no corresponde a una configuracion habitual*
