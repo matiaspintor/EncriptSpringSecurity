@@ -16,7 +16,7 @@ El controlador principal expone 4 endpoints en los cuales se juega con dos hashe
 
 *Las peticiones HTTP que haceptan los endpoints son por POST*
 
-** Endpoint 1: **
+**Endpoint 1:**
 
 Recibe como parametro un JSON con una cadena como valor, dentro del metodo se va a encriptar y va a retornar al usuario la cadena encriptada en bcrypt.
 
